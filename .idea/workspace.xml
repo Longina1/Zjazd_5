@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c07bda17-8f95-40a7-abcf-d39d86d9fa95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Zjazd 5_13.01_14.01.2024.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Regresja liniowa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorytm_KNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iris.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Regresja liniowa_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Regresja logistyczna.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regresja liniowa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Regresja liniowa.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Algorytm_KNN.executor": "Run",
+    "Python.Regresja liniowa.executor": "Run",
+    "Python.Regresja liniowa_2.executor": "Run",
+    "Python.Regresja logistyczna.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
