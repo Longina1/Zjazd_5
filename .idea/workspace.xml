@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c07bda17-8f95-40a7-abcf-d39d86d9fa95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/0_tmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Multi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Regresja_liniowa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Regresja_liniowa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Regresja_logistyczna.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_KNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_Drzewa decyzyjne.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6_Siatka parametrów.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7_Las losowy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Las losowy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_SVM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorytm SVM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drzewa decyzyjne.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Las losowy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Las losowy_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model zapisany.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Multi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Siatka parametrów.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorytm_KNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorytm_KNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regresja liniowa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Regresja liniowa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regresja liniowa_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Regresja liniowa_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regresja logistyczna.py" beforeDir="false" afterPath="$PROJECT_DIR$/Regresja logistyczna.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/tmp.py" afterDir="false" />
-    </list>
+    <list default="true" id="c07bda17-8f95-40a7-abcf-d39d86d9fa95" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
