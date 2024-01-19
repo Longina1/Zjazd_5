@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 
-pd.read_csv('weight-height (1).csv')
+#pd.read_csv('weight-height (1).csv')
 df = pd.read_csv('weight-height (1).csv')
 print(df.head(3)) # 3 pierwsze wiersze
 print(df.Gender.value_counts()) #ile jest kobiet/mężczyzn
@@ -13,7 +13,7 @@ df.Weight /= 2.2
 print(f'Recalibrated\n {df.head(3)}')
 
 sns.histplot(df.Weight) #waga wszyskich
-#plt.show()
+#98plt.show()
 
 sns.histplot(df.query("Gender=='Male'").Weight) # waga tylko mężczyzn
 #plt.show()
@@ -34,7 +34,7 @@ print(df.head())
 #dane wejściowe (niezależne): height, gender; dane zależne (wyjściowe) - weight
 
 model = LinearRegression()
-model.fit(df[['Height', 'Gender_Female']], df['Weight']) #x - height i gender; y - wight
+model.fit(df[['Height', 'Gender_Female']], df['Weight']) #X - height i gender; y - weight
 print(f'Współczynnik kierunkowy to: {model.coef_},\n a wyraz wolny to: {model.intercept_}')
 
 print(f'Wzór na wagę: Height * {model.coef_[0]} + Gender * {model.coef_[1]} + {model.intercept_}')

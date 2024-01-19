@@ -25,7 +25,7 @@ for col in ['glucose', 'bloodpressure', 'skinthickness', 'insulin', 'bmi', 'diab
 print(df.isna().sum()) #sprawdza, ile zostało pustych wartości
 print(df.describe().T.to_string())
 
-X = df.iloc[: , :-1]
+X = df.iloc[: , :-1] #bez ostatniej kolumny
 y = df.outcome
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2) # x - wejściowe, y -cena (wyjściowe) - będą pod;zielone 80%:20%
@@ -35,15 +35,15 @@ y = y_train + y_test
 model = LogisticRegression()
 model.fit(X_train, y_train)
 print(model.score(X_test, y_test))
-print(pd.DataFrame(confusion_matrix(y_test, model.predict(X_test))))
+print(pd.DataFrame(confusion_matrix(y_test, model.predict(X_test)))) #y prawdziwy (czy zdrowy czy chory) i y predict (obliczony orzez algortytm, czy zdrowy czy chory); prawdziwy y to y_test, y policzony to X-test
 
 print('\nData change')
-df1 = df.query('outcome==0').sample(n=500) #filtrowanie zdrowych 0 i wziąć 50 prób
-df2 = df.query('outcome==1').sample(n=500) #filtrowanie chorych
-df3 = pd.concat([df1, df2])
+df1 = df.query('outcome==0').sample(n=500) #filtrowanie zdrowych 0 i wziąć 500 prób
+df2 = df.query('outcome==1').sample(n=500) #filtrowanie chorych i wybranie 500 prób
+df3 = pd.concat([df1, df2]) #sumowanie df1 i df2
 
-X = df.iloc[: , :-1]
-y = df.outcome
+X = df3.iloc[: , :-1]
+y = df3.outcome
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2) # x - wejściowe, y -cena (wyjściowe) - będą pod;zielone 80%:20%
 X = X_train + X_test

@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 
 
 df = pd.read_csv('otodom.csv')
-print(df.head(10).to_string()) #wyświetla wszystko - wszystkie kolumny
+print(df.head(10).to_string()) #wszystkie kolumny dla 10 pierwszych wierszy
 
 print(df.describe().to_string())
 print(df.describe().T.to_string()) #zamiana kolum na wiersze, usuwająć ID, którego nie może policzyć/posegregować
@@ -27,7 +27,7 @@ print(df.describe().T.to_string()) #zamiana kolum na wiersze, usuwająć ID, kt�
 #plt.show()
 
 #usunięcie najdroższych
-#znależenie minimum (zakres 25%-75%)
+#znalezienie minimum (zakres 25%-75%)
 _min = df.describe().loc['min', 'cena'] # decribe robi tabelę, w describe kolumny i wiersze są nazwane, ale transponowany po zamianiae kolumn na wiersze
 q1 = df.describe().loc['25%', 'cena']
 q3 = df.describe().loc['75%', 'cena']

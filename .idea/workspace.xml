@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c07bda17-8f95-40a7-abcf-d39d86d9fa95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorytm_KNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Iris.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Regresja liniowa_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Regresja logistyczna.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0_tmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Multi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Regresja_liniowa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Regresja_liniowa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Regresja_logistyczna.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_KNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_Drzewa decyzyjne.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_Siatka parametrów.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7_Las losowy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Las losowy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_SVM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorytm SVM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drzewa decyzyjne.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Las losowy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Las losowy_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model zapisany.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Siatka parametrów.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorytm_KNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorytm_KNN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Regresja liniowa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Regresja liniowa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regresja liniowa_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Regresja liniowa_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regresja logistyczna.py" beforeDir="false" afterPath="$PROJECT_DIR$/Regresja logistyczna.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/tmp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +45,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2atGJx42pssBDEZ7TYeaNVttASy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,39 +56,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.10_Multi.executor": "Run",
+    "Python.2_Regresja_liniowa.executor": "Run",
+    "Python.Algorytm SVM.executor": "Run",
     "Python.Algorytm_KNN.executor": "Run",
+    "Python.Drzewa decyzyjne.executor": "Run",
+    "Python.Las losowy.executor": "Run",
+    "Python.Las losowy_2.executor": "Run",
+    "Python.Multi.executor": "Run",
     "Python.Regresja liniowa.executor": "Run",
     "Python.Regresja liniowa_2.executor": "Run",
     "Python.Regresja logistyczna.executor": "Run",
+    "Python.Siatka parametrów.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.tmp.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/longi/PycharmProjects/Zjazd_4_09.12_10.12/weight-height (1).csv"
+    "last_opened_file_path": "C:/Users/longi/PycharmProjects/pythonProject3"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="Zjazd 5_13.01_14.01.2024" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Zjazd 5_13.01_14.01.2024" />
       <option name="ENV_FILES" value="" />
@@ -91,40 +97,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Autodetect">
-      <module name="Zjazd 5_13.01_14.01.2024" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="Zjazd 5_13.01_14.01.2024" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
   </component>
